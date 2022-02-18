@@ -73,5 +73,4 @@ document.getElementById('withdraw-btn').addEventListener('click', function(){
 
     // Total Balance Value
     totalBalance(withdrawInput, false);
-
 })
