@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Account</title>
+    <!-- Add Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Start Header Part -->
+
+    <header class="header-conatiner">
+        <h2>Let's Get your <span class="text-highlight">Amount</span></h2>
+    </header>
+
+    <!-- End Header Part -->
+
+
+    <!-- Start Main Part -->
+
+    <main>
+
+        <!-- Start Deposit & Withdraw & Total Part -->
+        <section class="total-area">
+            <div class="total-field">
+                <div class="total-item">
+                    <h3>Deposit</h3>
+                    <p>$ <span id="deposit-total">00</span></p>
+                </div>
+                <div class="total-item">
+                    <h3>Withdraw</h3>
+                    <p>$ <span id="withdraw-total">00</span></p>
+                </div>
+                <div class="total-item">
+                    <h3>Balance</h3>
+                    <p>$ <span id="balance-total">00</span></p>
+                </div>
+            </div>
+        </section>
+        <!-- ENd Deposit & Withdraw & Total Part -->
+
+
+        <!-- Start Deposit & Withdraw Button -->
+
+        <section class="button-conatiner">
+            <div class="button-area">
+                <div class="button-feild">
+                    <h3>Please Deposit</h3>
+                    <input type="text" id="deposit-input" placeholder="$ Amount you want to Deposit">
+                    <button id="deposit-btn">Desposit</button>
+                </div>
+                <div class="button-feild">
+                    <h3>Please Withdraw</h3>
+                    <input type="text" id="withdraw-input" placeholder="$ Amount you want to Withdraw">
+                    <button id="withdraw-btn">Withdraw</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- End Deposit & Withdraw Button -->
+
+
+
+
+    </main>
+
+    <!-- End Main Part -->
+
+
+
+    <!-- Add Account Js File -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
